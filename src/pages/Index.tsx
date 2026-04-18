@@ -28,7 +28,7 @@ const Index = () => {
       <FloatingIcon className="bottom-32 left-10 md:bottom-24 md:left-32" delay="0.5s">🔬</FloatingIcon>
       <FloatingIcon className="bottom-40 right-12 md:bottom-28 md:right-40" delay="1.5s">🚀</FloatingIcon>
       <FloatingIcon className="top-1/2 left-4 hidden md:block" delay="2s">🧪</FloatingIcon>
-      <FloatingIcon className="top-1/3 right-4 hidden md:block" delay="2.5s">💡</FloatingIcon>
+      <FloatingIcon className="top-1/2 right-4 hidden md:block" delay="2.5s">💡</FloatingIcon>
 
       <CollegeHeader />
 
