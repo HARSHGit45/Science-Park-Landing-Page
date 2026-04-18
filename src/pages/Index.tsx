@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CollegeHeader from "@/components/CollegeHeader";
+import pccoeLogo from "@/assets/pccoe-logo.png";
 
 const FloatingIcon = ({
   children,
@@ -33,6 +34,12 @@ const Index = () => {
       <CollegeHeader />
 
       <section className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-12 md:py-20 min-h-[calc(100vh-80px)]">
+        <img
+          src={pccoeLogo}
+          alt="PCCOE - Pimpri Chinchwad College of Engineering logo"
+          className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 mb-6 drop-shadow-lg rounded-full bg-white/90 p-2"
+        />
+
         <div className="inline-block bg-white/30 backdrop-blur-sm rounded-full px-5 py-2 mb-6 border border-white/40 shadow-soft">
           <span className="text-sm md:text-base font-semibold text-white">
             ✨ Science Park Exhibit ✨
