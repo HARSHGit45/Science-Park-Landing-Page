@@ -40,7 +40,7 @@ const Index = () => {
         </div>
 
         <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white drop-shadow-[0_4px_0_rgba(0,0,0,0.15)] leading-tight max-w-4xl">
-          Welcome to <span className="block text-[hsl(var(--sunshine))]">PCCOE Science Park</span>
+          Welcome to <span className="block text-[hsl(var(--sunshine))]">Science Park</span>
         </h1>
 
         <p className="mt-6 text-2xl sm:text-3xl md:text-4xl font-bold text-white font-display">
