@@ -63,13 +63,6 @@ const Index = () => {
           </span>
         </Link>
 
-        <div className="mt-12 flex gap-6 text-3xl md:text-4xl">
-          <span className="animate-bounce-soft" style={{ animationDelay: "0s" }}>⚙️</span>
-          <span className="animate-bounce-soft" style={{ animationDelay: "0.2s" }}>🔋</span>
-          <span className="animate-bounce-soft" style={{ animationDelay: "0.4s" }}>🌈</span>
-          <span className="animate-bounce-soft" style={{ animationDelay: "0.6s" }}>🧲</span>
-          <span className="animate-bounce-soft" style={{ animationDelay: "0.8s" }}>🔭</span>
-        </div>
       </section>
     </main>
   );
