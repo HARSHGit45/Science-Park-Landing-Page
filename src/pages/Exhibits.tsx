@@ -59,11 +59,10 @@ const Exhibits = () => {
       {/* Cards Grid */}
       <section className="flex-1 px-4 sm:px-8 pb-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {exhibits.map((ex, i) => (
+          {exhibits.map((ex) => (
             <article
               key={ex.title}
-              className={`${ex.gradient} rounded-3xl p-8 shadow-soft hover:shadow-pop hover:-translate-y-3 hover:scale-[1.03] transition-all duration-300 border-4 border-white/40`}
-              style={{ animation: `float ${5 + i}s ease-in-out infinite` }}
+              className={`${ex.gradient} rounded-3xl p-8 shadow-soft border-4 border-white/40`}
             >
               <div className="text-7xl mb-4 text-center drop-shadow-md">
                 {ex.emoji}
