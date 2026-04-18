@@ -48,10 +48,8 @@ const Exhibits = () => {
 
       {/* Title */}
       <section className="text-center px-6 py-8 md:py-12">
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold">
-          <span className="bg-gradient-hero bg-clip-text text-transparent">
-            Explore Science Exhibits
-          </span>
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-[hsl(var(--grape))] drop-shadow-sm">
+          Explore Science Exhibits
         </h1>
         <p className="mt-4 text-lg md:text-xl text-foreground/70 font-medium">
           Pick an exhibit and start your adventure! 🎈
