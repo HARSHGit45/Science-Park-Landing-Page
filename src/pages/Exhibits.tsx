@@ -42,7 +42,7 @@ const Exhibits = () => {
           >
             <span>⬅️</span> Back to Home
           </Link>
-          <span className="hidden sm:inline-block text-2xl animate-spin-slow">🔬</span>
+          
         </div>
       </header>
 
