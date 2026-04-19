@@ -33,11 +33,11 @@ const Index = () => {
 
       <CollegeHeader />
 
-      <section className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-12 md:py-20 min-h-[calc(100vh-80px)]">
+      <section className="relative z-10 flex flex-col items-center justify-start text-center px-6 pt-4 pb-12 md:pt-6 md:pb-20 min-h-[calc(100vh-80px)]">
         <img
           src={pccoeLogo}
           alt="PCCOE - Pimpri Chinchwad College of Engineering logo"
-          className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 mb-6 drop-shadow-lg rounded-full bg-white/90 p-2"
+          className="mx-auto w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 mb-6 drop-shadow-lg rounded-full bg-white/90 p-2"
         />
 
         <div className="inline-block bg-white/30 backdrop-blur-sm rounded-full px-5 py-2 mb-6 border border-white/40 shadow-soft">
