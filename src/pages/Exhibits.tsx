@@ -6,6 +6,7 @@ type Exhibit = {
   emoji: string;
   description: string;
   gradient: string;
+  link: string;
 };
 
 const exhibits: Exhibit[] = [
@@ -14,18 +15,21 @@ const exhibits: Exhibit[] = [
     emoji: "☀️",
     description: "See how sunlight turns into electricity!",
     gradient: "bg-gradient-card-1",
+    link: "https://8d1cb7be.solar-sytem.pages.dev/",
   },
   {
     title: "Steam Power",
     emoji: "🚂",
     description: "Discover how steam creates powerful motion!",
     gradient: "bg-gradient-card-2",
+    link: "https://steam-engine-lab.vercel.app/",
   },
   {
     title: "Electricity Generation",
     emoji: "⚡",
     description: "Learn how electricity is produced and used!",
     gradient: "bg-gradient-card-3",
+    link: "https://interactive-web-learn--ankushbanne23.replit.app/",
   },
 ];
 
@@ -75,7 +79,9 @@ const Exhibits = () => {
               </p>
               <div className="mt-6 flex justify-center">
                 <a
-                  href="#"
+                  href={ex.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-white text-foreground font-bold px-6 py-3 rounded-full shadow-soft hover:scale-110 active:scale-95 transition-transform duration-200"
                 >
                   Open Exhibit ✨

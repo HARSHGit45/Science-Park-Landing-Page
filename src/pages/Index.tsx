@@ -71,6 +71,71 @@ const Index = () => {
         </Link>
 
       </section>
+
+      {/* Features Section */}
+      <section className="relative z-10 px-4 sm:px-8 py-16 md:py-24 bg-white/5">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white drop-shadow-sm mb-12">
+            Interactive Learning Features 🎓
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {/* AI Generated Videos */}
+            <div className="bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🎬</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">AI Generated Videos</h3>
+              <p className="text-white/85 leading-relaxed">
+                Personalized videos tailored to different age groups for better understanding and engagement.
+              </p>
+            </div>
+
+            {/* 3D Models */}
+            <div className="bg-gradient-to-br from-blue-400/20 to-blue-600/20 border-2 border-blue-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🎯</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">Explore via 3D Models</h3>
+              <p className="text-white/85 leading-relaxed">
+                Interactive 3D visualizations to explore scientific concepts from every angle.
+              </p>
+            </div>
+
+            {/* VR Labs */}
+            <div className="bg-gradient-to-br from-cyan-400/20 to-cyan-600/20 border-2 border-cyan-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🥽</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">3D DIY VR Labs</h3>
+              <p className="text-white/85 leading-relaxed">
+                Hands-on virtual reality experiments for immersive DIY learning experiences.
+              </p>
+            </div>
+
+            {/* Admin Dashboard */}
+            <div className="bg-gradient-to-br from-green-400/20 to-green-600/20 border-2 border-green-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">📊</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">Admin Dashboard</h3>
+              <p className="text-white/85 leading-relaxed">
+                Track and analyze feedback from visitors to continuously improve the science park experience.
+              </p>
+            </div>
+
+            {/* RAG Chatbot */}
+            <div className="bg-gradient-to-br from-pink-400/20 to-pink-600/20 border-2 border-pink-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">💬</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">RAG Chatbot</h3>
+              <p className="text-white/85 leading-relaxed">
+                Intelligent assistant powered by AI to answer questions about science and experiments.
+              </p>
+            </div>
+
+            {/* More to Come */}
+            <div className="bg-gradient-to-br from-yellow-400/20 to-yellow-600/20 border-2 border-yellow-300/30 rounded-2xl p-8 shadow-soft hover:shadow-pop transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🌟</div>
+              <h3 className="font-display text-2xl font-bold text-white mb-3">More Coming Soon</h3>
+              <p className="text-white/85 leading-relaxed">
+                Stay tuned for additional interactive features and enhancements to the science park.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 };
